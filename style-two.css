@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    width: 600px;
+    height: 500px;
+    
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border-radius: 5px;
+    background: url(image-product-desktop.jpg);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+.perfume{
+    position: absolute;
+    left: 55%;
+    top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    color: rgb(126, 126, 126);
+
+}
+h1{
+    position: absolute;
+    left: 55%;
+    top: 52px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.pargraph{
+    position: absolute;
+    left: 55%;
+    top: 34%;
+    font-family: arial;
+    font-weight: 100;
+    line-height: 27px;
+    color: #7e7e7e;
+}
+.price{
+    position: absolute;
+    /* bottom: 0; */
+    left: 55%;
+    top: 70%;
+    font-size: 36px;
+    font-weight: 900;
+    color: #38660c;
+}
+.old-price{
+    position: absolute;
+    /* bottom: 0; */
+    left: 80%;
+    font-size: 14px;
+    font-weight: 100;
+    color: #7e7e7e;
+    top: 72.5%;
+    text-decoration: line-through;
+    font-family: arial;
+}
+.btn{
+    FONT-WEIGHT: 500;
+    position: absolute;
+    left: 55%;
+    top: 83%;
+    border-radius: 5px;
+    width: 239px;
+    outline: none;
+    border: none;
+    background-color: #38660c;
+    color: white;
+    font-family: arial;
+    font-weight: 800;
+    font-size: 16px;
+    height: 47px;
+}
+svg{
+    position: absolute;
+    top: 86%;
+    left: 62%;
+}
+@media (max-width:767px){
+    .container{
+        width: 300px;
+        height: 600px;
+        background: url(image-product-mobile.jpg);
+    background-size: 100% 40%;
+    
+    background-repeat: no-repeat;
+    background-color: white;
+    }
+    .perfume{
+        position: absolute;    position: absolute;
+        top: 40%;
+        left: 7%;
+    
+    }
+    h1{
+        position: absolute;
+        position: absolute;
+        left: 7%;
+        top: 263px;
+        line-height: 30px;
+        font-weight: bold;
+    }
+    .pargraph{
+        position: absolute;
+        left: 7%;
+        top: 57%;
+        font-family: arial;
+        font-weight: 100;
+        line-height: 27px;
+        color: #7e7e7e;
+        font-size: 15px;
+        line-height: 20px;    }
+        .price{
+            position: absolute;
+            
+            left: 7%;
+            top: 78%;
+        }
+        .old-price{
+            position: absolute;
+    /* bottom: 0; */
+    left: 72%;
+    font-size: 14px;
+    font-weight: 100;
+    color: #7e7e7e;
+    top: 80.5%;
+    text-decoration: line-through;
+    font-family: arial;}
+    .btn{
+        left: 12%;
+        top: 88%;
+    }
+    svg{
+        position: absolute;
+    top:90.5%;
+    left: 28%;
+    }
+        }
